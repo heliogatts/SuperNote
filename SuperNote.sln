@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3A74AA37-2A95-4204-8946-E0BE8EBCA3CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{72B6A177-6676-4CB3-8E8D-C6FC8E1FBCCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperNote.Domain", "src\SuperNote.Domain\SuperNote.Domain.csproj", "{2E98A620-4668-4261-87E1-5163A458DD6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperNote.Application", "src\SuperNote.Application\SuperNote.Application.csproj", "{DC219CB7-BB1C-488D-8741-F06878623ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperNote.Api", "src\SuperNote.Api\SuperNote.Api.csproj", "{ECA58665-81ED-42F9-9FDA-C77B8BBA35EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{32DAFECF-940D-4890-8029-DC8E297226D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperNote.DataAccess", "src\SuperNote.DataAccess\SuperNote.DataAccess.csproj", "{3A094AA1-4828-4A10-B06A-655AEAFCB96C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperNote.Application.UnitTests", "tests\SuperNote.Application.UnitTests\SuperNote.Application.UnitTests.csproj", "{2D24B3F2-D059-4B17-8700-100BB11B8F50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E98A620-4668-4261-87E1-5163A458DD6B} = {3A74AA37-2A95-4204-8946-E0BE8EBCA3CE}
+		{DC219CB7-BB1C-488D-8741-F06878623ABC} = {3A74AA37-2A95-4204-8946-E0BE8EBCA3CE}
+		{ECA58665-81ED-42F9-9FDA-C77B8BBA35EF} = {3A74AA37-2A95-4204-8946-E0BE8EBCA3CE}
+		{32DAFECF-940D-4890-8029-DC8E297226D8} = {3A74AA37-2A95-4204-8946-E0BE8EBCA3CE}
+		{3A094AA1-4828-4A10-B06A-655AEAFCB96C} = {32DAFECF-940D-4890-8029-DC8E297226D8}
+		{2D24B3F2-D059-4B17-8700-100BB11B8F50} = {72B6A177-6676-4CB3-8E8D-C6FC8E1FBCCA}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E98A620-4668-4261-87E1-5163A458DD6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E98A620-4668-4261-87E1-5163A458DD6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E98A620-4668-4261-87E1-5163A458DD6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E98A620-4668-4261-87E1-5163A458DD6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC219CB7-BB1C-488D-8741-F06878623ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC219CB7-BB1C-488D-8741-F06878623ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC219CB7-BB1C-488D-8741-F06878623ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC219CB7-BB1C-488D-8741-F06878623ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA58665-81ED-42F9-9FDA-C77B8BBA35EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA58665-81ED-42F9-9FDA-C77B8BBA35EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA58665-81ED-42F9-9FDA-C77B8BBA35EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA58665-81ED-42F9-9FDA-C77B8BBA35EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A094AA1-4828-4A10-B06A-655AEAFCB96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A094AA1-4828-4A10-B06A-655AEAFCB96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A094AA1-4828-4A10-B06A-655AEAFCB96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A094AA1-4828-4A10-B06A-655AEAFCB96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D24B3F2-D059-4B17-8700-100BB11B8F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D24B3F2-D059-4B17-8700-100BB11B8F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D24B3F2-D059-4B17-8700-100BB11B8F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D24B3F2-D059-4B17-8700-100BB11B8F50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
