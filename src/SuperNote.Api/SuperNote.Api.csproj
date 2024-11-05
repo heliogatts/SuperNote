@@ -13,4 +13,10 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\SuperNote.Application\SuperNote.Application.csproj" />
+      <ProjectReference Include="..\SuperNote.DataAccess\SuperNote.DataAccess.csproj" />
+      <ProjectReference Include="..\SuperNote.Domain\SuperNote.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

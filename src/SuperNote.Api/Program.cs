@@ -1,7 +1,15 @@
+
+using SuperNote.Application;
+using SuperNote.DataAccess;
+using SuperNote.Domain;
+
 var builder = WebApplication.CreateBuilder(args);
 
-var app = builder.Build();
+builder.Services
+    .AddDomainServices()
+    .AddApplicationServices()
+    .AddDataAccessServices();
 
-app.UseHttpsRedirection();
+var app = builder.Build();
 
 app.Run();
