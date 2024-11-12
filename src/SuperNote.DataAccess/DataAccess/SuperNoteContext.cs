@@ -5,7 +5,7 @@ namespace SuperNote.DataAccess.DataAccess;
 
 public class SuperNoteContext : DbContext
 {
-    public SuperNoteContext(DbContextOptions options) : base(options)
+    public SuperNoteContext(DbContextOptions<SuperNoteContext> options) : base(options)
     {
     }
     

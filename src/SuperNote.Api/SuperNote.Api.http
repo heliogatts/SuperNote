@@ -1,4 +1,4 @@
-@SuperNote.Api_HostAddress = http://localhost:5068
+@SuperNote.Api_HostAddress = https://localhost:7113
 
 GET {{SuperNote.Api_HostAddress}}/weatherforecast/
 Accept: application/json
