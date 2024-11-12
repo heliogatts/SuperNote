@@ -12,7 +12,7 @@ public class Note : AggregateRoot
     /// <summary>
     /// EfCore demands a parameterless constructor
     /// </summary>
-    private Note()
+    public Note()
     {
     }
     
